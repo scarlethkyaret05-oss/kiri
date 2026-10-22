@@ -1,0 +1,130 @@
+
+
+/* ESTILOS DE LA PAGINA PRINCIPAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eacdf3;
+    color: #30213A;
+}
+
+/* PARTE SUPERIOR MORADA */
+
+header {
+    background-color: #A64AC9;
+    color: rgb(213, 116, 225);
+    padding: 35px 5%;
+}
+
+/* MENU DE NAVEGACION */
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 2.5;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: #8436A5;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #50206B;
+}
+
+/* TITULO PRINCIPAL */
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(158, 95, 197);
+    margin: 25px 0;
+}
+
+/* SUBTITULO Y LINEA BLANCA */
+
+header h2 {
+    color: #FFE6A7;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;
+}
+
+/* INTRODUCCION */
+
+header p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: white;
+    text-align: justify;
+}
+
+/* PARTE INFERIOR LAVANDA */
+
+main {
+    background-color: #F1DDF7;
+    color: #30213A;
+    padding: 30px 5%;
+    text-align: center;
+}
+
+/* TITULOS INFERIORES */
+
+main h2 {
+    color: #7027A0;
+    font-size: 28px;
+}
+
+/* PARRAFOS */
+
+main p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* IMAGEN PRINCIPAL */
+
+main img {
+    display: block;
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 18px;
+}
+
+/* CUADRO DE TEMAS */
+
+.temas {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    max-width: 650px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+/* LISTA DE TEMAS */
+
+.temas li {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #50206B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
